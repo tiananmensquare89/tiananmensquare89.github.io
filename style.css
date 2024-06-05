@@ -63,7 +63,7 @@ p {
 }
 
 .smallimg {
-    height: 450px;
+    max-height: 600px;
     outline: 3px ridge #e0ca78;
 }
 
