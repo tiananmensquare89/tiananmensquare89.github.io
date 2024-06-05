@@ -1,0 +1,90 @@
+* {
+    color: #ededed;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(15, 15, 25);
+}
+
+a {
+    color: #e0ca78;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+#main-content-container {
+    width: 80%;
+    margin: auto;
+    border: 1px dashed #e0ca78;
+    padding: 5px;
+}
+
+#top-window-div {
+    background:
+        linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)),
+        url("img/Banner.png"); /* Citation https://www.flickr.com/photos/pingnews/340925322/in/album-72157594333669521/ */
+    background-repeat: no-repeat;
+    background-color: #BC4749;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #e0ca78 3px;
+}
+
+#title-heading {
+    background: linear-gradient(rgba(219,80,74,0.6), rgba(219,80,74,0.8));
+    padding: 5px 15px 5px 15px;
+    border: solid #e0ca78 3px;
+    border-radius: 5px;
+    font-family: F-Gothic, Serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+hr.big {
+    border: 2px dashed #eadfbb;
+}
+
+hr.small {
+    border: 1px dotted #eadfbb;
+}
+
+p {
+    font-size: 18px;
+}
+
+.smallimg {
+    height: 450px;
+    outline: 3px ridge #e0ca78;
+}
+
+.bigtext {
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.moreinfo {
+    text-decoration: underline;
+    color: #c0e4fa;
+    cursor: help;
+}
+
+@media screen and (max-width: 950px) {
+    #main-content-container {
+        width: 100%;
+        border: none;
+        padding: none;
+    }
+
+    .smallimg {
+        height: 250px;
+    }
+}
