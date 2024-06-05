@@ -37,6 +37,7 @@ a {
     justify-content: center;
     align-items: center;
     border: solid #e0ca78 3px;
+    overflow: hidden;
 }
 
 #title-heading {
@@ -79,12 +80,14 @@ p {
 
 @media screen and (max-width: 950px) {
     #main-content-container {
-        width: 100%;
+        width: auto;
         border: none;
         padding: none;
+        margin:auto;
     }
 
     .smallimg {
-        height: 250px;
+        width: 100%;
+        height: auto;
     }
 }
